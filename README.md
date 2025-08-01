@@ -14,6 +14,15 @@ The shader class allows for **hot-reloading** of the fragment shader, so wheneve
 2. Download some [GLFW pre-compiled binaries](https://www.glfw.org/download) and put the `libglfw3.a` file in `libs/glfw/`. 
 3. Compile with CMake and then run it! Piece of cake!
 
+## VS Code + CMake
+1. Copy and paste `libglfw3.a` file in `libs/glfw/`
+
+## Visual Studio 2022
+1. copy `glfw3.lib` from `lib-vc2022` folder and paste into `libs/glfw/`
+2. cd `opengl-imgui-cmake-template`
+3. `cmake .`
+4. build and run
+
 ## Remarks
 
 * Uses [imgui version 1.83](https://github.com/ocornut/imgui/releases/tag/v1.83)
