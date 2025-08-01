@@ -15,7 +15,7 @@ The shader class allows for **hot-reloading** of the fragment shader, so wheneve
 3. Compile with CMake and then run it! Piece of cake!
 
 ## VS Code + CMake
-1. Copy and paste `libglfw3.a` file in `libs/glfw/`
+1. Follow "Getting started" steps above
 
 ## Visual Studio 2022
 1. copy `glfw3.lib` from `lib-vc2022` folder and paste into `libs/glfw/`
